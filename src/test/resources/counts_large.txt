@@ -1,0 +1,1 @@
+green,orange,red,blue,red,maroon,orange,red,red,green,blue,green,blue,red,blue,red,maroon,green,blue,red,maroon,maroon,red,red,green,blue,brown,black,brown,black,black,black,yellow,blue,green
