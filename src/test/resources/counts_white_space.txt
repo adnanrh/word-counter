@@ -1,0 +1,1 @@
+peach,apple, peach, apple ,pear,banana ,      pear    ,banana,pear,apple

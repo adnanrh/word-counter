@@ -63,11 +63,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569527021038" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -86,43 +86,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.word-counter [build]">
-    <configuration name="word-counter [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="JUnit.WordCounterTest">
+    <configuration name="WordCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordCounter" />
+      <module name="word-counter_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCounterTest.test_getWordCounts_trim_whitespace" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;WordCounterTest.test_getWordCounts_trim_whitespace&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value=":cleanTest" />
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="word-counter [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="WordCounterTest.test_getWordCounts_very_large_file_many_keys" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;WordCounterTest.test_getWordCounts_very_large_file_many_keys&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value=":cleanTest" />
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="word-counter [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -155,16 +164,18 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.word-counter [test]" />
-      <item itemvalue="Gradle.word-counter [clean]" />
-      <item itemvalue="Gradle.word-counter [build]" />
       <item itemvalue="JUnit.WordCounterTest" />
+      <item itemvalue="Gradle.WordCounterTest.test_getWordCounts_trim_whitespace" />
+      <item itemvalue="Application.WordCounter" />
+      <item itemvalue="Gradle.WordCounterTest.test_getWordCounts_very_large_file_many_keys" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.WordCounterTest" />
+        <item itemvalue="Gradle.WordCounterTest.test_getWordCounts_very_large_file_many_keys" />
+        <item itemvalue="Application.WordCounter" />
+        <item itemvalue="Gradle.WordCounterTest.test_getWordCounts_trim_whitespace" />
         <item itemvalue="Gradle.word-counter [test]" />
-        <item itemvalue="Gradle.word-counter [build]" />
-        <item itemvalue="Gradle.word-counter [clean]" />
       </list>
     </recent_temporary>
   </component>

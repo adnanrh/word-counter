@@ -40,8 +40,8 @@ public class WordCounter {
         String list = new String(Files.readAllBytes(Paths.get(inputFile)));
         // if file is empty, return an empty list.
         if (list.length() == 0) return new ArrayList<>();
-        // split the list using comma as a delimiter, and store in a List of String
-        return Arrays.asList(list.split(","));
+        // split the list using comma as a delimiter (as well as remove trailing and leading whitespace)
+        return Arrays.asList(list.split("\\s*,\\s*"));
     }
 
     /**
